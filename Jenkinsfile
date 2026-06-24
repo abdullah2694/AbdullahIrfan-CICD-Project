@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKER_IMAGE = 'YOUR-USERNAME/AbdullahIrfan-CICD-Project'
+    DOCKER_IMAGE = 'abdullah2694/AbdullahIrfan-CICD-Project'
     IMAGE_TAG = "${BUILD_NUMBER}"
   }
   stages {
